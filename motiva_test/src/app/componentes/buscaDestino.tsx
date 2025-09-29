@@ -23,7 +23,7 @@ export default function BuscaDestino({ onBuscarRota }: { onBuscarRota: (origem: 
     const saveDestino = async (destino: string) => {
         try {
             // Call backend API to create destination, including credentials to send cookies
-            const response = await fetch(`https://challenge-java-fgyb.onrender.com/api/destinos`, {
+            const response = await fetch(`/api/destinos`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json", 

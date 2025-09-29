@@ -9,7 +9,7 @@ export default function Recentes() {
 
   const fetchRecentes = async () => {
     try {
-      const response = await fetch("https://challenge-java-fgyb.onrender.com/api/destinos", {
+const response = await fetch("/api/destinos", {
         method: "GET",
         credentials: "include",
       });
