@@ -21,7 +21,7 @@ const CadastroForm = () => {
     console.log('Dados enviados:', cadastroData);
   
     try { 
-      const apiUrl = `/api/usuarios/cadastrar`;
+      const apiUrl = `https://challenge-java-fgyb.onrender.com/api/usuarios/cadastrar`;
       console.log('Fetching URL:', apiUrl);
       const response = await fetch(apiUrl, {
         method: 'POST',

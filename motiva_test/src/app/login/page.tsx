@@ -22,7 +22,7 @@ const LoginForm = () => {
     }
 
     try { 
-      const apiUrl = '/api/usuarios/login';
+      const apiUrl = 'https://challenge-java-fgyb.onrender.com/api/usuarios/login';
       console.log('Fetching URL:', apiUrl);
       const response = await fetch(apiUrl, {
         method: 'POST',
